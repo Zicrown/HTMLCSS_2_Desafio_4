@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* 
+ COLORES: 
+ - morado: rgb(131,96,195) 
+ - verde: rgb(46,191,145) 
+ - amarillo: #fff77c 
+ - gris de fondo: #ECEFF1 
+ - sombra: rgb(144,164,174)
+*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+div[class="logo"] {
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25vh;
+    width: 30vh;
+    display: inline-block;
+    position: relative;
+}
+
+/* Header */
+
+header {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(to right, #8360c3, #29bf91);
+}
+header img {
+    width: 100%;
+    height: 90%;
+    opacity: 32%;
+    position: absolute;
+}
+header>div:first-of-type>div:first-child {
+    left: 6%;
+    padding-top: 2%;
+}
+header>div:first-of-type>div:nth-child(2)>ul {
+    display: inline-block;
+    position: absolute;
+    top: 7%;
+    right: 10%;
+    width: 40%;
+}
+ul>li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0 2vh;
+    color: white;
+
+}
+ul>li:first-child {
+    color: #fff77c;
+    border-top: #fff77c 3px solid;
+    padding-top: 3vh;
+}
+header div:last-child {
+    text-align: center;
+    color: white;
+}
+header div:last-child>h1 {
+    font-size: 16vh;
+    text-transform: uppercase;
+    margin: 0;
+    transform: scale(1, 1);
+}
+header div:last-child>p {
+    margin: 0;
+    transform: scale(1, 1);
+}
+header div:last-child>span {
+    margin: 1vw;
+    text-transform: uppercase;
+    font-size: 2.8vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+    top: 5vh;
+    border-radius: 30px;
+    border: #fff77c solid 2px;
+    padding: 12px 22px;
+}
+header div:last-child>span:first-of-type {
+    color: #fff77c;
+    transition: all 2s ease-out 0s;
+}
+header div:last-child>span:hover{
+   cursor: pointer;
+    transform: scale(1.05); 
+   color:#29bf91;
+   border: #8360c3 solid 2px;
+   background-color: #ECEFF1;
+}
+header div:last-child>span:last-child {
+    color: #8360c3;
+    background-color: #fff77c;
+    transition: all 2s ease-out 0s;
+}
+header div:last-child>span:hover{
+    cursor: pointer;
+     transform: scale(1.05); 
+    color:#29bf91;
+    border: #8360c3 solid 2px;
+    background-color: #ECEFF1;
+ }
+ head
+/* Fin Header */
+
+/* Main */
+
+/* Servicios */
+div[id="servicios"] {
+    padding: 4% 6%;
+    text-align: center;
+    height: 75vh;
+    background-color: #ECEFF1;
+}
+
+div[id="servicios"]>div {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+div[id="servicios"]>section {
+    margin-top: 8vh;
+}
+
+div[id="servicios"]>section>article {
+    display: inline-block;
+    height: 60vh;
+    width: 28%;
+    background-color: white;
+    border: #ECEFF1 solid 1px;
+    box-shadow: rgb(144, 164, 174) 0px 0px 4px 2px;
+    margin: 0px 29px;
+    position: relative;
+    border-radius: 15px;
+    transition: all 2s linear 0s;
+}
+
+div[id="servicios"]>section>article:hover{
+    transform: rotate(360deg);
+}
+
+div[id="servicios"]>section>article:first-child {
+    bottom: 3vh;
+}
+
+div[id="servicios"]>section>article>div:first-child {
+    height: 44vh;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    width: 90%;
+    background-position: center;
+    aspect-ratio: 1;
+    transition: all 1s linear 0s;
+}
+
+div[id="servicios"]>section>article:nth-child(1)>div:first-child {
+    background-image: url(../img/diseño-web.png);
+}
+
+div[id="servicios"]>section>article:nth-child(2)>div:first-child {
+    background-image: url(../img/social-media.png);
+}
+
+div[id="servicios"]>section>article:nth-child(3)>div:first-child {
+    background-image: url(../img/seo.png);
+}
+
+/* Fin Servicios */
+
+/* Cuadro Preparar */
+
+main>section>div:first-child {
+    background: linear-gradient(to right, #8360c3, #29bf91);
+    color: white;
+    height: 20vh;
+    width: 100%;
+}
+
+main>section>div:first-child>span:first-child {
+    margin: 6vh 0 0vh 11vh;
+    display: inline-block;
+    font-size: 7vh;
+    font-style: italic;
+}
+
+main>section>div:first-child>span:last-child {
+    float: right;
+    color: #8360c3;
+    background-color: #fff77c;
+    border: #fff77c solid 3px;
+    margin: 7vh 15vh;
+    text-transform: uppercase;
+    border-radius: 75px;
+    padding: 2vh 5vh;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Fin Cuadro Preparar */
+
+/* Clientes */
+
+main>section>div:last-child {
+    /* height: 8vh; */
+    width: 100%;
+}
+
+main>section>div:last-child>div:first-child {
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    left: 2%;
+    margin-top: 8vh;
+    font-weight: bolder;
+    font-size: 5vh;
+}
+main>section>div:last-child>div:last-child{
+    height: 30vh;
+    width: inherit;
+    margin: 6vh 8vh 0 5vh;
+}
+main>section>div:last-child>div:last-child>div{
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    filter: grayscale(1);
+    transition: all 1s ease-in-out 0s;
+}
+main>section>div:last-child>div:last-child>div:hover{
+    transform: scale(1.05);
+    filter: grayscale(0);
+}
+
+main>section>div:last-child>div:last-child>div:nth-child(1) {
+    background-image: url(../img/logo-apple.png);
+    position: relative;
+    bottom: 6vh;
+    left: 8vh;
+}
+main>section>div:last-child>div:last-child>div:nth-child(2) {
+    background-image: url(../img/logo-samsung.png);
+    position: relative;
+    bottom: 36vh;
+    left: 50vh;
+}
+main>section>div:last-child>div:last-child>div:nth-child(3) {
+    background-image: url(../img/logo-google.png);
+    position: relative;
+    bottom: 61vh;
+    left: 93vh;
+    height: 19vh;
+}
+main>section>div:last-child>div:last-child>div:nth-child(4) {
+    background-image: url(../img/logo-pepsi.jpg);
+    position: relative;
+    bottom: 80vh;
+    left: 122vh;
+    height: 19vh;
+}
+main>section>div:last-child>div:last-child>div:nth-child(5) {
+    background-image: url(../img/logo-twitter.png);
+    position: relative;
+    bottom: 105vh;
+    left: 152vh;
+}
+
+/* Fin Clientes */
+
+/* Fin Main */
+/* Footer */
+footer {
+    background: linear-gradient(to right, #8360c3, #29bf91);
+    color: white;
+    text-align: center;
+}
+
+/* Fin Footer */
